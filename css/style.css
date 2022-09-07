@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #00d4ff, #6c0979);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 450px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.box{
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin: 25px 0px;
+}
+hr{
+    border: none;
+    height: 1px;
+    background: #ddd;
+    margin-bottom: 35px;
+}
+form{
+}
+.fiel{
+    
+    border: none;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-bottom: 1px solid #8f8f8f;
+    width: 380px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    outline: none;
+}
+form>a{
+    text-decoration: none;
+    color: #8f8f8f;
+    margin-left: 40px;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    margin: 35px 0px;
+}
+.btn{
+    width: 380px;
+    background-color: #0d6efd;
+    padding: 20px 10px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+p{
+    text-align: center;
+    margin-bottom: 35px;
+}
+p>span>a{
+    text-decoration: none;
+    color: #327ef1;
+    font-weight: bold;
+}
